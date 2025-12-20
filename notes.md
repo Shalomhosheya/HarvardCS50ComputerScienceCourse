@@ -102,7 +102,7 @@ Source Code → Preprocessing → Compiling → Assembling → Linking → Progr
 ## 🔹 Debugger
    * debug50 ./filename
    ---
-   #⏯️ - run code
+   #⏯️ continue - run code
    ---
    #🔂 step over - excute code phase line when click
    ---
