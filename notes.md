@@ -96,4 +96,12 @@ Source Code → Preprocessing → Compiling → Assembling → Linking → Progr
 
 ---
 
-✨ *Perfect for CS50 exams, interviews, and fundamentals revision*
+
+
+
+## 🔹 Debugger
+   * debug50 ./filename
+   #⏯️ - run code
+   #🔂 step over - excute line when click
+   #⬆️ step into
+   #⬇️
