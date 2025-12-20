@@ -102,6 +102,6 @@ Source Code → Preprocessing → Compiling → Assembling → Linking → Progr
 ## 🔹 Debugger
    * debug50 ./filename
    #⏯️ - run code
-   #🔂 step over - excute line when click
-   #⬆️ step into
-   #⬇️ step out
+   #🔂 step over - excute code phase line when click
+   #⬆️ step into - excute line when click
+   #⬇️ step out - excute previous line when click
