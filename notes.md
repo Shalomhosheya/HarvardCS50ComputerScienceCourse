@@ -104,4 +104,4 @@ Source Code → Preprocessing → Compiling → Assembling → Linking → Progr
    #⏯️ - run code
    #🔂 step over - excute line when click
    #⬆️ step into
-   #⬇️
+   #⬇️ step out
