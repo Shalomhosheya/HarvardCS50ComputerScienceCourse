@@ -1,5 +1,10 @@
 ########################Notes to CS50###########################################
 
+
+
+//could run in the bottom codespace ,every code run in because there a builtin cs50 packages in the coures which we could run in there interface
+// https://cs50.dev 
+
 preprocessing - packages,functions scanning
 compiling - comiples human lan to assembly(which are instrustions)
 assembling - assembly to machine code (0-1)
@@ -110,3 +115,4 @@ Source Code → Preprocessing → Compiling → Assembling → Linking → Progr
    ---
    #⬇️ step out - excute previous line when click
    ---
+
