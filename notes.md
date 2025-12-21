@@ -116,3 +116,4 @@ Source Code → Preprocessing → Compiling → Assembling → Linking → Progr
    #⬇️ step out - excute previous line when click
    ---
 
+## String variable act as an array which saves alphabetic values as Char
