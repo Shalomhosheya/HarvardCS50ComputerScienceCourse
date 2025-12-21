@@ -1,7 +1,8 @@
-#include <cs50.h>
+ #include <cs50.h>
 #include <stdio.h>
 
 int main(void){
     string s ="hi!";
+    printf("%s\n",s);
     printf("%i %i %i %i\n",s[0],s[1],s[2],s[3]);
 }
