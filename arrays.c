@@ -1,5 +1,7 @@
 #include <cs50.h>
 #include <stdio.h>
+#include <string.h> //strlen - shows lenght of the string
+#include <ctype.h> //toupper - makes uppercase
 
 const int n = 3;
 float average(int array[],int length);
