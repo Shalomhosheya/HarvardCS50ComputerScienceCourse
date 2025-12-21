@@ -7,13 +7,13 @@ int main(void){
     string s  = get_string("Input: ");
     printf("before: %s\n",s);
     printf("after: ");
-    for(int i = 0;i <strlen(s);i++){
+    for(int i = 0 , n = strlen(s);i < n;i++){
         // if(islower(s[i])){
         //     printf("%c",toupper(s[i]));
-        // }else{
+        // }else{       complex #1
         //     printf("%c",s[i]);
         // }
-        printf("%c",toupper(s[i])); // easier
+        printf("%c",toupper(s[i])); // easier #2
 
     }
     printf("\n");
