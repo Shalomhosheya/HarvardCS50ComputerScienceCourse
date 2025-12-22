@@ -7,5 +7,7 @@ int main(int argc , string argv[]){
         return 1;
     }else{
         printf("hello %s\n",argv[1]);
+        return 0;
     }
 }
+//echo $? shows the return value 1
