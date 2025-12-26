@@ -10,4 +10,8 @@ int main()
     char *s="Hi";//it does exist as String variable
     printf("%p,\n",s);
     printf("%s,\n",s);
+    printf("%p,\n",&s[0]);
+    printf("%p,\n",&s[1]);
+    printf("%p,\n",&s[2]);
+    printf("%p,\n",&s[3]);
 }
