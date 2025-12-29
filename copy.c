@@ -27,5 +27,7 @@ int main(void)
     printf("Copy to: %s\n", t);
     printf("Copy to: %s\n", s);
 
+    free(t);
+    return 0;
 
 }
