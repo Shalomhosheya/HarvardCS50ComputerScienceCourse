@@ -3,6 +3,8 @@
 #include <string.h>
 #include <stdlib.h>
 #include <ctype.h>
+
+// malloc function to copy memory allocation address / copy method as strcpy/ need tp free the memmory when using malloc
 int main(void)
 {
     char *s = get_string("Copy from: ");
