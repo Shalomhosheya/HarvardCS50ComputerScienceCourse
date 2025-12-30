@@ -117,3 +117,5 @@ Source Code → Preprocessing → Compiling → Assembling → Linking → Progr
    ---
 
 ## String variable act as an array which saves alphabetic values as Char
+
+machine code -> global -> heap -> stack -> registers
