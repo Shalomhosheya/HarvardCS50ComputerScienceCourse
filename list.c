@@ -34,3 +34,26 @@ int main(){
     return 0;
     
 }
+
+// Key Concepts You Should Remember
+// ✅ malloc
+
+// Allocates memory dynamically
+
+// Returns a pointer
+
+// May return NULL
+
+// ✅ Why use tmp
+
+// Safe resizing
+
+// Prevents data loss if allocation fails
+
+// ✅ Why copy manually?
+
+// C does not resize arrays automatically
+
+// ✅ Why free memory?
+
+// OS does NOT clean up for you in C
