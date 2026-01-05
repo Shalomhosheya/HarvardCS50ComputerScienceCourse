@@ -22,6 +22,20 @@ int main(int argc , char *argv[]){
     n->next = list;
     list = n;
    }
+   node *ptr =list;
+   while (ptr !=NULL)
+   {
+    printf("%i\n",ptr->number);
+    ptr = ptr->next;
+   }
+   ptr = list;
+   if (ptr !=NULL)
+   {
+    node *next =ptr->next;
+    free(ptr);
+    ptr =next;
+   }
+   
 
  }
  
