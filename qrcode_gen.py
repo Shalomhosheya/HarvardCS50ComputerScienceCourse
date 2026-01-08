@@ -1,3 +1,5 @@
+# pip install qrcode
+
 import os
 import qrcode
 
