@@ -1,0 +1,6 @@
+        .mode csv
+. import favourites.csv favourites
+.schema
+select * from favourites;
+select count(distinct(name))as n from favourites;
+select count(distinct(name))as n from favourites;
