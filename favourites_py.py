@@ -14,6 +14,8 @@ with open("favourites.csv","r") as file:
     
     # print(f"same name {name}")
     # print(f"same email {email}")
+    def get_value(name):
+        return count[name]
     
     for row in reader:
         fav = row["name"]
@@ -21,5 +23,5 @@ with open("favourites.csv","r") as file:
             count[fav] +=1
         else:
             count[fav] = 1
-    for fav in sorted(count,reverse=True):
+    for fav in sorted(count,key=lambda fav:count[fav],reverse=True):
         print(f"{fav} : {count[fav]}")
