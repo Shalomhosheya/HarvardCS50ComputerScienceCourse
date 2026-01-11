@@ -1,0 +1,6 @@
+id,name,email,department,job_title,salary,join_date
+1,Shalom Hosheya,shalom@example.com,IT,Software Intern,45000,2024-06-01
+2,Nimal Perera,nimal@example.com,HR,HR Executive,55000,2023-03-15
+3,Kamal Silva,kamal@example.com,Finance,Accountant,65000,2022-11-10
+4,Saman Fernando,saman@example.com,Sales,Sales Officer,50000,2023-08-20
+5,Ravi Kumar,ravi@example.com,IT,Backend Developer,90000,2021-01-05
