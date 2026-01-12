@@ -4,3 +4,5 @@
 select * from favourites;
 select count(distinct(name))as n from favourites;
 select count(distinct(name))as n from favourites;
+update favourites set name = 'shalom' where name = 'Shalom Hosheya';
+update favourites set name = 'Shalom Hosheya' where name = 'shalom';
