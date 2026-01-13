@@ -1,21 +1,72 @@
-##terminal command to see the header of a website
-curl -I http://www.harvard.edu/ 
+# 🌐 `curl` Website Inspection – Quick Notes
 
-200 - ok
-301 - moved permanently
-302 - found
-304 - not modified
-307 - temporary redirect
-401 - unauthorized
-404 - not found
-500 - internal server error
-503 - service unavailable
+Clean, simple notes for using **`curl`** to inspect websites from the terminal.
 
-##terminal command to see the source code of a website
+---
+
+## 📌 View HTTP Headers
+
+Use this command to see **only the response headers** of a website:
+
+```bash
+curl -I http://www.harvard.edu/
+```
+
+### 🔎 Why this is useful
+
+* Check server response status
+* Debug redirects
+* Inspect security headers
+
+---
+
+## 📊 Common HTTP Status Codes
+
+| Code    | Meaning                    |
+| ------- | -------------------------- |
+| **200** | OK – Request successful    |
+| **301** | Moved Permanently          |
+| **302** | Found (Temporary redirect) |
+| **304** | Not Modified               |
+| **307** | Temporary Redirect         |
+| **401** | Unauthorized               |
+| **404** | Not Found                  |
+| **500** | Internal Server Error      |
+| **503** | Service Unavailable        |
+
+---
+
+## 📄 View Website Source Code (HTML)
+
+To fetch the **raw HTML source** of a website:
+
+```bash
 curl http://www.harvard.edu/
+```
 
-##terminal command to see the source code of a website
-curl -I http://www.harvard.edu/
+This prints the entire page source directly in the terminal.
 
-##terminal command to see the source code of a website
-curl -I http://www.harvard.edu/
+---
+
+## 🔁 Command Comparison
+
+| Command                   | Output            |
+| ------------------------- | ----------------- |
+| `curl http://site.com`    | Full HTML source  |
+| `curl -I http://site.com` | HTTP headers only |
+
+---
+
+## 💡 Pro Tips
+
+* Use `-I` for backend debugging and status checks
+* Use normal `curl` to inspect page structure or API responses
+* Combine with `| less` for long outputs
+
+```bash
+curl http://site.com | less
+```
+
+---
+
+📝 *Great for CS50 notes, backend learning, and web debugging.*
