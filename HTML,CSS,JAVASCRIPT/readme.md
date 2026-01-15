@@ -69,4 +69,38 @@ curl http://site.com | less
 
 ---
 
+| Event        | When it happens               |
+| ------------ | ----------------------------- |
+| `mousedown`  | Mouse button is pressed       |
+| `mouseup`    | Mouse button is released      |
+| `click`      | Press + release (most common) |
+| `mousemove`  | Mouse is moving               |
+| `mouseover`  | Mouse enters an element       |
+| `mouseout`   | Mouse leaves an element       |
+| `mouseenter` | Mouse enters (no bubbling)    |
+| `mouseleave` | Mouse leaves (no bubbling)    |
+| `drag`       | Element is being dragged      |
+
+| Event     | When it happens |
+| --------- | --------------- |
+| `keydown` | Key is pressed  |
+| `keyup`   | Key is released |
+
+| Event    | When it happens               |
+| -------- | ----------------------------- |
+| `focus`  | Input is selected             |
+| `blur`   | Input loses focus             |
+| `change` | Value is changed + focus lost |
+
+| Event    | When it happens     |
+| -------- | ------------------- |
+| `load`   | Page fully loaded   |
+| `unload` | Leaving the page    |
+| `resize` | Window size changes |
+| `scroll` | Page is scrolled    |
+
+| Event    | When it happens   |
+| -------- | ----------------- |
+| `submit` | Form is submitted |
+
 📝 *Great for CS50 notes, backend learning, and web debugging.*
