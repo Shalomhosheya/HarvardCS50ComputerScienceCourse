@@ -1,0 +1,9 @@
+{%extends "layout.html"%}
+{%block content%}
+<h1>Registrants</h1>
+<ul>
+    {% for name in registrants%}
+     <li>{{name}}</li>
+    {%endfor%}
+</ul>
+{%endblock%%}
