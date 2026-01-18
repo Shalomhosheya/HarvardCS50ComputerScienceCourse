@@ -3,7 +3,7 @@
 <h1>Registrants</h1>
 <ul>
     {% for name in registrants %}
-     <li>{{name}}</li>
+     <li>{{name}} is registered in {{registrants[name]}}</li>
     {%endfor%}
 </ul>
 {%endblock%}
