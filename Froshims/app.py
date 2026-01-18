@@ -4,6 +4,8 @@ from flask import Flask, render_template, request, redirect, url_for, flash, ses
 
 app = Flask(__name__) 
 
+REGISTRANTS= {}
+
 @app.route("/",methods=["GET","POST"])
 def index():
     return render_template("index.html")
@@ -12,9 +14,9 @@ def index():
 def register():
     name = request.form.get("name")
     sport = request.form.get("sport")
-    registrants[name]=sport
+    REGISTRANTS[name]=sport
     return render_template("success.html")
 
 @app.route("/registrants",methods=["GET","POST"])
 def registrants():
-    return render_template("registrants.html",registrants=registrants)
+    return render_template("registrants.html",registrants=REGISTRANTS)
