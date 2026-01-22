@@ -1,9 +1,14 @@
-{%extends "layout.html"%}
-{%block body %}
+{% extends "layout.html" %}
+{% block body %}
 <h1>Registrants</h1>
 <ul>
-    {% for name in registrants %}
-     <li>{{name}} is registered in {{registrants[name]}}</li>
-    {%endfor%}
+    {% for registrant in registrants %}
+     <li>{{ registrant.name }} is registered in {{ registrant.sport }}</li>
+     <div>
+        <form action="/delete/{{ registrant.id }}" method="post">
+            <input type="submit" value="Delete">
+        </form>
+    </div>
+    {% endfor %}
 </ul>
-{%endblock%}
+{% endblock %}

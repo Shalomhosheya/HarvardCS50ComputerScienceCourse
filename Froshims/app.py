@@ -95,6 +95,16 @@ def registrants():
     
     return render_template("registrants.html", registrants=registrants_data)
 
+@app.route("/delete/<int:registrant_id>", methods=["POST"])
+def delete(registrant_id):
+    db = get_db()
+    cursor = db.cursor()
+    cursor.execute("DELETE FROM registrants WHERE id = %s", (registrant_id,))
+    db.commit()
+    cursor.close()
+
+    return redirect(url_for("registrants"))
+
 if __name__ == "__main__":
     init_db()  # Initialize database on startup
     app.run(debug=True)
