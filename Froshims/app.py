@@ -1,8 +1,9 @@
 # pip install flask
-
+from cs50 import SQL
 from flask import Flask, render_template, request, redirect, url_for, flash, session
 
 app = Flask(__name__) 
+db = SQL("sqlite:///registrants.db") 
 
 REGISTRANTS= {}
 SPORTS={
