@@ -4,7 +4,6 @@ import mysql.connector
 from flask import Flask, render_template, request, redirect, url_for, flash, session, g
 
 app = Flask(__name__)
-app.secret_key = 'your-secret-key-here-change-this'
 
 # MySQL Configuration
 DB_CONFIG = {
